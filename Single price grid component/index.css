@@ -9,6 +9,7 @@ body {
 
 #community {
     background-color: hsl(204, 43%, 93%);
+    padding-bottom: 20px;
 }
 
 #community p {
@@ -24,31 +25,42 @@ body {
     color: hsl(71, 73%, 54%);
 }
 
-.second h3 {
+.flex-container {
+    display: flex;
+    width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.flex-container h3 {
     padding-top: 30px;
 }
 
-.second span {
+.flex-container span {
     font-size: 25px;
     font-weight: 700;
 }
 
 #subscription {
     background-color: hsl(179, 62%, 43%);
+    padding-bottom: 20px;
+    width: 50%;
 }
 
 #why-us {
     background-color: hsla(179, 62%, 43%, 0.5);
+    padding-bottom: 20px;
+    width: 50%;
 }
 
 p {
     font-weight: 400;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 h2, h3 {
     font-weight: 700;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 button {
@@ -56,9 +68,9 @@ button {
     background-color: hsl(71, 73%, 54%);
     color: hsl(204, 43%, 93%);
     margin: 20px;
-    padding: 10px 30px;
+    padding: 12px 100px;
     border-radius: 5px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 button:hover {
@@ -72,4 +84,18 @@ footer {
 
 footer a {
     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-device-width: 480px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    #subscription {
+        width: 100%;
+    }
+    
+    #why-us {
+        width: 100%;
+    }
 }
