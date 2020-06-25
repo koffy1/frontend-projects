@@ -1,0 +1,75 @@
+main {
+    font-family: Karla;
+    color: white;
+}
+
+body {
+    max-width:1440px;
+}
+
+#community {
+    background-color: hsl(204, 43%, 93%);
+}
+
+#community p {
+    color: hsl(218, 22%, 67%);
+}
+
+#community h2 {
+    color: hsl(179, 62%, 43%);
+    padding-top: 30px;
+}
+
+#community h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+.second h3 {
+    padding-top: 30px;
+}
+
+.second span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#subscription {
+    background-color: hsl(179, 62%, 43%);
+}
+
+#why-us {
+    background-color: hsla(179, 62%, 43%, 0.5);
+}
+
+p {
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+h2, h3 {
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+button {
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+button:hover {
+    background-color: hsla(71, 73%, 54%, 0.8);
+}
+
+footer {
+    font-size: 11px;
+    text-align: center;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
