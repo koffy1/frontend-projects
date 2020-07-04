@@ -7,6 +7,20 @@ main {
     font-weight: 100;
 }
 
+footer p
+{
+    font-size: 12px;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(31, 31, 211);
+}
+
+footer a:hover {
+    color:rgb(81, 53, 126);
+}
+
 h1, h2 {
     text-align: center;
 }
