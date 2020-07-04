@@ -2,14 +2,10 @@
     box-sizing: border-box;
 }
 
-main {
-    max-height: inherit;
-    font-weight: 100;
-}
-
 footer p
 {
     font-size: 12px;
+    font-style: italic;
     text-align: center;
 }
 
@@ -23,6 +19,12 @@ footer a:hover {
 
 h1, h2 {
     text-align: center;
+}
+
+h1 {
+    font-family: "Great Vibes";
+    font-size: 50px;
+    font-weight: lighter;
 }
 
 p {
@@ -46,10 +48,12 @@ p {
     height: 90%;
     margin:0 auto;
     border: 1px solid black;
+    font-style: italic;
+    font-weight: 100;
   }
 
 .row {
-    border: 2px solid black;
+    border: 1px solid black;
     color: #000;
     background-color: #fff;
     width: auto;
@@ -100,31 +104,41 @@ p {
 }
 
 .column-box {
-    height: 21%;
+    display: flex;
+    flex: 1;
+    align-items: center;
     padding-left: 20px;
     font-weight: 600;
     font-size: 25px;
-    padding-top: 20px;
 }
 
-.column-politics {
+.column-box:nth-child(1) {
     background-color: #ffb;
 }
 
-.column-technology {
+.column-box:nth-child(2) {
     background-color: #aff;
 }
 
-.column-local {
+.column-box:nth-child(3) {
     background-color: #8fc;
 }
 
-.column-opinion {
+.column-box:nth-child(4) {
     background-color: #8cf;
 }
 
-.column-sports {
+.column-box:nth-child(5) {
     background-color: #aaf;
+}
+
+.column-link a {
+    text-decoration: none;
+    color: #000;
+}
+
+.column-link a:hover {
+    text-decoration: underline;
 }
 
 @media only screen and (max-device-width: 1024px) {
