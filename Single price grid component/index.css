@@ -77,7 +77,8 @@ button:hover {
     background-color: hsla(71, 73%, 54%, 0.8);
 }
 
-footer {
+footer 
+{
     font-size: 11px;
     text-align: center;
 }
