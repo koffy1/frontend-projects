@@ -55,6 +55,7 @@ h1 {
 .box-1 {
     width: 25%;
     border-left: 1px solid black;
+    cursor: pointer;
 }
 
 .box-1:first-of-type {
@@ -68,10 +69,12 @@ h1 {
 
 .box-2 {
     width: 50%;
+    cursor: pointer;
 }
 
 .box-3 {
     width: 75%;
+    cursor: pointer;
 }
 
 .calculation {
