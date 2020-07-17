@@ -9,7 +9,7 @@ function addFavoriteBook(bookName) {
 }
 
 function printFavoriteBooks() {
-    let number = favoriteBooks.length;
+    let number = String(favoriteBooks.length);
     console.log(`My ${number} Favorite Books: ...`);
     for (let book of favoriteBooks) {
         console.log(book);
